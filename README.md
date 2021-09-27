@@ -21,7 +21,7 @@ The full Project instructions can be found [here](https://github.com/Deego88/MLS
 
 [2. Project Repository](#2-project-repository)
 
-[3. Headingn](#3-heading)
+[3. Heading](#3-heading)
 
 [4. Problem Statement](#4-Problem-Statement)
 
