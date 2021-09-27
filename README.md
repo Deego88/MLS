@@ -1,6 +1,6 @@
 # Machine Learning and Statistics 
 
-* **Author:** Richard Deegan.
+* **Author:** Richard Deegan
 * **Github:** Deego88
 * **Email:** G00387896@gmit.ie
 * **Lecturer:** Ian McLoughlin
