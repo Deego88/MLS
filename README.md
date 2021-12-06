@@ -7,9 +7,9 @@
 ------------------------------------------------------------------------------------------------
 **Machine Learning and Statistics:** 
 
-This Jupyter Notebook has been created to answer the assignment requirements available [here](https://github.com/Deego88/MLS) 
+This Jupyter Notebook has been created to answer the assignment requirements available [here](https://github.com/Deego88/MLS/Project Images) 
 
-The full Project instructions can be found [here](https://github.com/Deego88/MLS) 
+The full Project instructions can be found [here](https://github.com/Deego88/MLS/Project Images) 
 
 
 **Table of Contents**
