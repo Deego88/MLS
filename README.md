@@ -7,9 +7,9 @@
 ------------------------------------------------------------------------------------------------
 **Machine Learning and Statistics:** 
 
-This Jupyter Notebook has been created to answer the assignment requirements available [here](https://github.com/Deego88/MLS/Project Images) 
+This Jupyter Notebook has been created to answer the assignment requirements available [here](https://github.com/Deego88/MLS) 
 
-The full Project instructions can be found [here](https://github.com/Deego88/MLS/Project Images) 
+The full Project instructions can be found [here](https://github.com/Deego88/MLS) 
 
 
 **Table of Contents**
@@ -38,9 +38,11 @@ The full Project instructions can be found [here](https://github.com/Deego88/MLS
 
 ## 1 Introduction
 -----------------------------------------------------------------------------------------------
-This assignment project using Python, Jupyter, SciPy, and Anova is conducetd as part of the Machine Learning and Statistics module of the Higher Diploma In Data Analytics at GMIT.
+This assignment project uses Python, Jupyter, SciPy, and Anova.  This project is conducetd as part of the Machine Learning and Statistics module of the Higher Diploma in Data Analytics at GMIT.
 
-This Jupyter notebook contains a data set from XXXXXX and will conduct analysis to produce visual representations and draw conclusions.
+The Scipy-Stats Jupyter notebook contains a fake random data set obtained from Numpy.random.
+The Scikit-Learn Jupyter notebook contains a CSV data set imported from Kaggle.com on the Indians Diabetes Database [13].
+These data sets are used to conduct analysis and to produce visual representations and draw conclusions.
 
 ## 2 Project Repository
 ------------------------------------------------------------------------------------------------
@@ -51,20 +53,43 @@ located [here](https://github.com/Deego88/MLS):
   **File**    |     **Description**
   ---------   |   --------------------------------------------------------
   .gitignore | A Text File explicitly explaining to Git which files or folders to ignore in the Assignment
-  Project Instructions.pdf | A PDF copy of the Poject Instructions
+  Assessment_Instructions.pdf | A PDF copy of the Poject Instructions
   LICENSE     |    MIT License for the project
-  Scikit-learn.ipynb | Jupyter Notebook created to in Python
-  Scipy-stats.inpb | Jupyter Notebook created to in Python
+  Scikit-learn.ipynb | Jupyter Notebook created in Python
+  Scipy-stats.inpb | Jupyter Notebook created  in Python
   README.md   |    This file; A Description of the project and instructions
+  diabetes.csv   |    This file contains information used to conduct analysis for the project
 
-## 3  Heading
+
+## 3  Overview
 ------------------------------------------------------------------------------------------------
- For the purpose of this project the author chose to use XXXXX 
+ For the purpose of this project the author chose the following:
+ 
+Scikit-Learn:
+1. K-Nearest Neighbors
+2. K-Means Clustering
+3. Logistic Regression 
+
+Scipy-Stats:
+1. ANOVA Hypothesis 
+2. ANOVA Assumptions
+3. Visual displays
+
 
 ## 4 Problem Statement
 ------------------------------------------------------------------------------------------------
 As part of the project, the student was given a set of instructions, the full set can be see here [here](https://github.com/Deego88/MLS). In short, the instructions of the project state the following:
-xxxxxxxxxxxxxx
+The purpose of this assessment is to ensure that the student has achieved the learning outcomes
+of the module while also providing teh student with sample work to show prospective
+employers. 
+
+The project assessment is split into the three components:
+
+1. GitHub Repository
+
+2. Scikit-Learn Jupyter Notebook
+
+3. Scipy Stats Jupyter Notebook
 
 ## 5 User Guide
 ------------------------------------------------------------------------------------------------
@@ -103,7 +128,25 @@ The following Python libraries were used in the writing of the projects code and
 -import matplotlib.pyplot as plt
 -import seaborn as sns
 -scikit-learn
+  -from sklearn.preprocessing import StandardScaler, LabelEncoder
+  -from sklearn.model_selection import train_test_split
+  -from sklearn.neighbors import KNeighborsClassifier
+  -from sklearn.metrics import classification_report, confusion_matrix
+  -from sklearn import linear_model
+  -from sklearn.linear_model import LogisticRegression
+  -from sklearn import metrics
+  -from sklearn.cluster import KMeans
+  -from sklearn.metrics import accuracy_score, roc_auc_score, roc_curve
+  -from sklearn import datasets
 -scipy.stats
+  -from scipy.stats import norm
+  -from scipy.stats import uniform
+  -from scipy.stats import binom
+  -from scipy import stats
+  -from scipy.stats import f 
+  -from statsmodels.formula.api import ols
+  -from scipy.stats import bartlett
+  -from scipy.stats import levene
 -Anova
 
 
