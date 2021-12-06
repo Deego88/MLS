@@ -149,7 +149,6 @@ The following Python libraries were used in the writing of the projects code and
   -from scipy.stats import levene
 -Anova
 
-
 ## 6 References
 ------------------------------------------------------------------------------------------------
 References will be indicated numerically throughout the Jupyter Notebook and will be listed in full at the end.
